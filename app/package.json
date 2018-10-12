@@ -7,6 +7,7 @@
     "start:dev": "node_modules/.bin/nodemon ./bin/www",
     "build": "node_modules/.bin/sequelize db:migrate:undo:all && node_modules/.bin/sequelize db:migrate && node_modules/.bin/sequelize db:seed:all",
     "update:latest": "node_modules/npm-check-updates/bin/ncu -u",
+    "sequelize": "node_modules/.bin/sequelize",
     "eslint": "node_modules/.bin/eslint"
   },
   "dependencies": {

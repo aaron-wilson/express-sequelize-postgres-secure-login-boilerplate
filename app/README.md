@@ -157,9 +157,9 @@ option 3. `npm run update:latest` performs the above
 
 ### sequelize-cli
 
-`node_modules/.bin/sequelize [command]`
+`node_modules/.bin/sequelize [command]` or `npm run sequelize [command]`
 
-`npm run build` - undoes migrations then does migrations
+`npm run build` - undoes migrations, does migrations, then seeds
 
 ### eslint
 
